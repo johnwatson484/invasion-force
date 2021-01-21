@@ -2,7 +2,9 @@
   "resources": [
     {"id":{"name":"obj_star","path":"objects/obj_star/obj_star.yy",},"order":2,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
+    {"id":{"name":"spr_explosion","path":"sprites/spr_explosion/spr_explosion.yy",},"order":5,},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":1,},
+    {"id":{"name":"obj_gameover","path":"objects/obj_gameover/obj_gameover.yy",},"order":6,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":1,},
     {"id":{"name":"spr_star","path":"sprites/spr_star/spr_star.yy",},"order":2,},
     {"id":{"name":"spr_laser","path":"sprites/spr_laser/spr_laser.yy",},"order":3,},
