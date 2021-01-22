@@ -1,5 +1,10 @@
-/// @description Restart
+/// @description Handle death
 // You can write your code in this editor
+
+if(!global.alive && global.playerLives > 1) {
+	global.alive = true
+	alarm[2] = 3 * room_speed
+}
 
 if(!global.alive && !global.restart){
 	instance_create_layer(x, y, "Instances", obj_gameover)

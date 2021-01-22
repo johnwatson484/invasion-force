@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"spr_player_invincible","path":"sprites/spr_player_invincible/spr_player_invincible.yy",},"order":6,},
     {"id":{"name":"obj_star","path":"objects/obj_star/obj_star.yy",},"order":2,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"spr_explosion","path":"sprites/spr_explosion/spr_explosion.yy",},"order":5,},

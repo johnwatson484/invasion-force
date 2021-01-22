@@ -1,5 +1,11 @@
-/// @description Move
+/// @description Control
 // You can write your code in this editor
+
+if(global.invincible) {
+	sprite_index = spr_player_invincible
+} else {
+	sprite_index  = spr_player	
+}
 
 if (keyboard_check(vk_left) && keyboard_check(vk_up)) {
 	x=x-global.playerSpeed / 2
