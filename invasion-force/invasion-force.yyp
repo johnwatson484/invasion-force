@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"Title","path":"rooms/Title/Title.yy",},"order":1,},
     {"id":{"name":"spr_player_invincible","path":"sprites/spr_player_invincible/spr_player_invincible.yy",},"order":6,},
     {"id":{"name":"obj_star","path":"objects/obj_star/obj_star.yy",},"order":2,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
@@ -8,6 +9,8 @@
     {"id":{"name":"spr_boss","path":"sprites/spr_boss/spr_boss.yy",},"order":8,},
     {"id":{"name":"spr_explosion","path":"sprites/spr_explosion/spr_explosion.yy",},"order":5,},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":1,},
+    {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},"order":11,},
+    {"id":{"name":"spr_title","path":"sprites/spr_title/spr_title.yy",},"order":9,},
     {"id":{"name":"obj_gameover","path":"objects/obj_gameover/obj_gameover.yy",},"order":6,},
     {"id":{"name":"pth_boss","path":"paths/pth_boss/pth_boss.yy",},"order":1,},
     {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"order":10,},
@@ -35,6 +38,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Title","path":"rooms/Title/Title.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
