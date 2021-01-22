@@ -23,8 +23,10 @@ if (keyboard_check(vk_left) && keyboard_check(vk_up)) {
 	y=y+global.playerSpeed;
 }
 
-if (keyboard_check(vk_space)) {
+if (keyboard_check(vk_space) && global.playerCanFire) {
 	instance_create_layer(x,y,"Instances",obj_laser)
+	global.playerCanFire = false
+	alarm[0] = 0.25 * room_speed
 }
 
 x=clamp(x, 0, room_width);
