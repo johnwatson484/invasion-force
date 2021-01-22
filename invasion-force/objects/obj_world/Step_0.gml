@@ -12,7 +12,7 @@ if(!global.alive && !global.restart){
 }
 
 if(global.restart && keyboard_check_pressed(vk_space)) {
-	game_restart()
+	room_restart()
 }
 
 if(global.scheduleBoss) {

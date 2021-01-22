@@ -8,7 +8,7 @@ global.playerSpeed = 10
 global.spawnEnemies = true
 global.playerCanFire = true
 global.invincible = false
-global.playerLives = 3
+global.playerLives = 5
 global.stepEnemy2 = 1
 global.scheduleBoss = false
 
