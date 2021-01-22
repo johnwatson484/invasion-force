@@ -1,0 +1,25 @@
+{
+  "kind": 1,
+  "closed": false,
+  "precision": 4,
+  "points": [
+    {"speed":100.0,"x":301.0,"y":27.0,},
+    {"speed":100.0,"x":314.0,"y":281.0,},
+    {"speed":100.0,"x":275.0,"y":375.0,},
+    {"speed":100.0,"x":9.0,"y":344.0,},
+    {"speed":100.0,"x":-353.0,"y":131.0,},
+    {"speed":100.0,"x":222.0,"y":173.0,},
+    {"speed":100.0,"x":905.0,"y":116.0,},
+    {"speed":100.0,"x":676.0,"y":306.0,},
+    {"speed":100.0,"x":406.0,"y":366.0,},
+    {"speed":100.0,"x":306.0,"y":309.0,},
+  ],
+  "parent": {
+    "name": "Paths",
+    "path": "folders/Paths.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "pth_boss",
+  "tags": [],
+  "resourceType": "GMPath",
+}
