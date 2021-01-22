@@ -1,4 +1,4 @@
-/// @description Handle death
+/// @description World events
 // You can write your code in this editor
 
 if(!global.alive && global.playerLives > 1) {

@@ -1,8 +1,11 @@
 {
   "resources": [
     {"id":{"name":"spr_player_invincible","path":"sprites/spr_player_invincible/spr_player_invincible.yy",},"order":6,},
+    {"id":{"name":"obj_enemy_spawn","path":"objects/obj_enemy_spawn/obj_enemy_spawn.yy",},"order":9,},
     {"id":{"name":"obj_star","path":"objects/obj_star/obj_star.yy",},"order":2,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
+    {"id":{"name":"spr_enemy2","path":"sprites/spr_enemy2/spr_enemy2.yy",},"order":7,},
+    {"id":{"name":"obj_enemy2","path":"objects/obj_enemy2/obj_enemy2.yy",},"order":8,},
     {"id":{"name":"spr_explosion","path":"sprites/spr_explosion/spr_explosion.yy",},"order":5,},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":1,},
     {"id":{"name":"obj_gameover","path":"objects/obj_gameover/obj_gameover.yy",},"order":6,},
@@ -11,6 +14,7 @@
     {"id":{"name":"spr_star","path":"sprites/spr_star/spr_star.yy",},"order":2,},
     {"id":{"name":"spr_laser","path":"sprites/spr_laser/spr_laser.yy",},"order":3,},
     {"id":{"name":"spr_laser2","path":"sprites/spr_laser2/spr_laser2.yy",},"order":4,},
+    {"id":{"name":"pth_enemy2","path":"paths/pth_enemy2/pth_enemy2.yy",},"order":0,},
     {"id":{"name":"obj_world","path":"objects/obj_world/obj_world.yy",},"order":5,},
     {"id":{"name":"obj_laser2","path":"objects/obj_laser2/obj_laser2.yy",},"order":4,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
