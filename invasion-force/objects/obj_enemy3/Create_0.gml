@@ -1,7 +1,7 @@
 /// @description AI
 // You can write your code in this editor
 
-health = 10
+health = global.enemy3Health
 advancing = true
 retreating = false
 

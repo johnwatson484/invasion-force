@@ -5,7 +5,7 @@ health -= 1
 instance_create_layer(x,y,"Instances",obj_explosion)
 
 if(health <= 0) {
-	global.playerScore +=50
+	global.playerScore += global.enemy3Points
 	instance_create_layer(x + sprite_xoffset ,y + sprite_yoffset,"Instances",obj_explosion)
 	instance_create_layer(x + sprite_xoffset ,y + sprite_yoffset+20,"Instances",obj_explosion)
 	instance_create_layer(x + sprite_xoffset ,y + sprite_yoffset-20,"Instances",obj_explosion)

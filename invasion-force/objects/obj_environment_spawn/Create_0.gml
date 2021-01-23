@@ -4,7 +4,7 @@
 global.asteroidField = false
 
 // spawn asteroid
-alarm[0] = 5 * room_speed
+alarm[0] = 120 * room_speed
 
 // spawn asteroid field
-alarm[1] = 10 * room_speed
+alarm[1] = 300 * room_speed

@@ -6,6 +6,15 @@ global.spawnEnemies = true
 global.stepEnemy2 = 1
 global.scheduleBoss = false
 
+global.enemyPoints = 10
+global.enemy2Points = 10
+global.enemy3Points = 25
+global.enemy4Points = 15
+global.bossPoints = 50
+
+global.enemy3Health = 10
+global.bossHealth = 25
+
 // enemy spawn
 alarm[0] = 1 * room_speed
 
