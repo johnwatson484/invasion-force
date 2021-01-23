@@ -19,5 +19,8 @@ alarm[0] = 1 * room_speed
 // enemy 2 spawn
 alarm[3] = 10 * room_speed
 
+// enemy 3 spawn
+alarm[5] = 10 * room_speed
+
 // boss spawn
 alarm[4] = 45 * room_speed

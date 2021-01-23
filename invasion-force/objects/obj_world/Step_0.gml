@@ -1,7 +1,7 @@
 /// @description World events
 // You can write your code in this editor
 
-if(!global.alive && global.playerLives > 1) {
+if(!global.alive && global.playerLives > 0) {
 	global.alive = true
 	alarm[2] = 3 * room_speed
 }
