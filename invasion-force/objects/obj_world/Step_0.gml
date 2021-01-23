@@ -14,9 +14,3 @@ if(!global.alive && !global.restart){
 if(global.restart && keyboard_check_pressed(vk_space)) {
 	room_restart()
 }
-
-if(global.scheduleBoss) {
-	rnd = irandom_range(60,240)
-	alarm[2] = rnd * room_speed
-	global.scheduleBoss = false
-}

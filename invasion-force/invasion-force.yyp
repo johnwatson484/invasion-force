@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"obj_enemy_spawn","path":"objects/obj_enemy_spawn/obj_enemy_spawn.yy",},"order":14,},
     {"id":{"name":"Title","path":"rooms/Title/Title.yy",},"order":1,},
     {"id":{"name":"spr_player_invincible","path":"sprites/spr_player_invincible/spr_player_invincible.yy",},"order":6,},
     {"id":{"name":"obj_star","path":"objects/obj_star/obj_star.yy",},"order":2,},
