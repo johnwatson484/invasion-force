@@ -13,6 +13,9 @@ global.playerLives = 3
 global.stepEnemy2 = 1
 global.scheduleBoss = false
 
+// increase difficulty
+alarm[6] = 300 * room_speed
+
 // enemy spawn
 alarm[0] = 1 * room_speed
 
