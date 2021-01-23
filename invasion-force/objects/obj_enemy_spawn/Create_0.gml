@@ -19,4 +19,4 @@ alarm[5] = 75 * room_speed
 alarm[4] = 45 * room_speed
 
 // enemy 4 spawn
-alarm[1] = 10 * room_speed
+alarm[1] = 85 * room_speed

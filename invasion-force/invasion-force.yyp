@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"obj_extra_life","path":"objects/obj_extra_life/obj_extra_life.yy",},"order":16,},
     {"id":{"name":"obj_enemy_spawn","path":"objects/obj_enemy_spawn/obj_enemy_spawn.yy",},"order":14,},
     {"id":{"name":"Title","path":"rooms/Title/Title.yy",},"order":1,},
     {"id":{"name":"spr_player_invincible","path":"sprites/spr_player_invincible/spr_player_invincible.yy",},"order":6,},
@@ -10,6 +11,7 @@
     {"id":{"name":"spr_boss","path":"sprites/spr_boss/spr_boss.yy",},"order":8,},
     {"id":{"name":"spr_explosion","path":"sprites/spr_explosion/spr_explosion.yy",},"order":5,},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":1,},
+    {"id":{"name":"spr_extra_life","path":"sprites/spr_extra_life/spr_extra_life.yy",},"order":13,},
     {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},"order":11,},
     {"id":{"name":"spr_title","path":"sprites/spr_title/spr_title.yy",},"order":9,},
     {"id":{"name":"obj_gameover","path":"objects/obj_gameover/obj_gameover.yy",},"order":6,},
