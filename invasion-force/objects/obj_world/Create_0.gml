@@ -5,10 +5,11 @@ global.alive = true
 global.restart = false
 global.playerScore = 0
 global.playerSpeed = 10
+global.spawnEnemiesRate = 1.5
 global.spawnEnemies = true
 global.playerCanFire = true
 global.invincible = false
-global.playerLives = 5
+global.playerLives = 3
 global.stepEnemy2 = 1
 global.scheduleBoss = false
 
@@ -19,4 +20,4 @@ alarm[0] = 1 * room_speed
 alarm[3] = 10 * room_speed
 
 // boss spawn
-alarm[4] = 60 * room_speed
+alarm[4] = 45 * room_speed

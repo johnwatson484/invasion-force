@@ -32,7 +32,7 @@ if (keyboard_check(vk_left) && keyboard_check(vk_up)) {
 if (keyboard_check(vk_space) && global.playerCanFire) {
 	instance_create_layer(x,y,"Instances",obj_laser)
 	global.playerCanFire = false
-	alarm[0] = 0.25 * room_speed
+	alarm[0] = 0.2 * room_speed
 }
 
 x=clamp(x, 0, room_width);

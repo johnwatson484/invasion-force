@@ -4,4 +4,4 @@
 if(global.spawnEnemies) {
 	instance_create_layer(irandom(room_width),0,"Instances",obj_enemy)
 }
-alarm[0] = 1.5 * room_speed
+alarm[0] = global.spawnEnemiesRate * room_speed
