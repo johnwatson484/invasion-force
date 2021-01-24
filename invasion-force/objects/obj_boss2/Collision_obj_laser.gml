@@ -16,5 +16,6 @@ if(health <= 0) {
 	}
 	global.spawnEnemies = true
 	global.spawnBoss = false
+	global.bossWins += 1
 	instance_destroy()
 }

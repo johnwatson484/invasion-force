@@ -1,5 +1,7 @@
 /// @description Setup
 // You can write your code in this editor
+global.victory = false
+
 global.bossWins = 0
 global.spawnEnemies = false
 

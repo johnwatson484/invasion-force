@@ -1,4 +1,17 @@
-/// @description Draw start
+/// @description Draw menu
 // You can write your code in this editor
 
-draw_text(x, y, "Press space to play...")
+draw_set_halign(fa_left)
+draw_set_valign(fa_middle)
+draw_set_font(fnt_default)
+
+menu_x=(room_width/2)
+menu_y=y
+line_spacing=20
+
+for (i=0;i<array_length_1d(menu);i++)
+{
+	menu_location[i] = menu_y
+	draw_text(menu_x,menu_y,string_hash_to_newline(menu[i]))
+    menu_y+=string_height(string_hash_to_newline(menu[i]))+line_spacing
+}

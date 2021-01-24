@@ -24,6 +24,8 @@
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_laser","path":"objects/obj_laser/obj_laser.yy",},"parent":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_laser2","path":"objects/obj_laser2/obj_laser2.yy",},"parent":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_beam","path":"objects/obj_beam/obj_beam.yy",},"parent":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
