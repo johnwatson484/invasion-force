@@ -1,4 +1,4 @@
-/// @description Start game
+/// @description Select
 // You can write your code in this editor
 
 switch(global.selected) {
