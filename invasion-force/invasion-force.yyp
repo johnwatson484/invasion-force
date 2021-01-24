@@ -6,6 +6,7 @@
     {"id":{"name":"spr_player_invincible","path":"sprites/spr_player_invincible/spr_player_invincible.yy",},"order":6,},
     {"id":{"name":"obj_star","path":"objects/obj_star/obj_star.yy",},"order":2,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
+    {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"order":23,},
     {"id":{"name":"spr_enemy2","path":"sprites/spr_enemy2/spr_enemy2.yy",},"order":7,},
     {"id":{"name":"obj_cursor","path":"objects/obj_cursor/obj_cursor.yy",},"order":22,},
     {"id":{"name":"obj_enemy2","path":"objects/obj_enemy2/obj_enemy2.yy",},"order":8,},
