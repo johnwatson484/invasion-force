@@ -9,8 +9,10 @@ global.playerCanFire = true
 global.invincible = false
 global.playerLives = 3
 
-// spawn extra life
-alarm[3] = 240 * room_speed
+if(room != Arena) {
+	// spawn extra life
+	alarm[3] = 240 * room_speed
 
-// increase difficulty
-alarm[6] = 300 * room_speed
+	// increase difficulty
+	alarm[6] = 300 * room_speed
+}
