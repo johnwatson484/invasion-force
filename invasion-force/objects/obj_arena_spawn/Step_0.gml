@@ -6,7 +6,12 @@ if(global.bossWins == 1 && global.spawnEnemies) {
 	alarm[6] = 3 * room_speed	
 }
 
-if(global.bossWins = 2 && !global.victory) {
+if(global.bossWins == 2 && global.spawnEnemies) {
+	global.spawnEnemies = false
+	alarm[7] = 3 * room_speed	
+}
+
+if(global.bossWins = 3 && !global.victory) {
 	instance_create_layer(x, y, "Instances", obj_victory)
 	global.victory = true
 	global.restart = true

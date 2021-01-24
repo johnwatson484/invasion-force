@@ -11,7 +11,7 @@
   "option_linux_start_fullscreen": false,
   "option_linux_allow_fullscreen": true,
   "option_linux_interpolate_pixels": true,
-  "option_linux_display_cursor": false,
+  "option_linux_display_cursor": true,
   "option_linux_sync": false,
   "option_linux_resize_window": true,
   "option_linux_scale": 0,

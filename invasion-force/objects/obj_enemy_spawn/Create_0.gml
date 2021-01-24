@@ -16,11 +16,14 @@ global.enemy5Points = 30
 global.enemy6Points = 10
 global.bossPoints = 50
 global.boss2Points = 100
+global.boss3Points = 120
+global.missilePoints = 15
 
 global.enemy3Health = 10
 global.enemy5Health = 25
 global.bossHealth = 50
 global.boss2Health = 100
+global.boss3Health = 120
 
 
 // enemy spawn

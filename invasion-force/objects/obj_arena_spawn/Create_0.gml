@@ -8,9 +8,12 @@ global.spawnEnemies = false
 
 global.bossPoints = 50
 global.boss2Points = 100
+global.boss3Points = 120
+global.missilePoints = 15
 
-global.bossHealth = 30
-global.boss2Health = 50
+global.bossHealth = 50
+global.boss2Health = 100
+global.boss3Health = 120
 
 // boss spawn
 alarm[4] = 1 * room_speed
