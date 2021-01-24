@@ -12,6 +12,9 @@ global.playerLives = 3
 if(room != Arena) {
 	// spawn extra life
 	alarm[3] = 240 * room_speed
+	
+	// spawn power up
+	alarm[4] = 30 * room_speed
 
 	// increase difficulty
 	alarm[6] = 300 * room_speed

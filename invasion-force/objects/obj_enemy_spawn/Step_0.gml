@@ -7,7 +7,7 @@ if(global.scheduleBoss) {
 	global.scheduleBoss = false
 }
 
-if(global.bossWins = 1) {
+if(global.bossWins == 1) {
 	// boss 2 spawn
 	alarm[6] = 120 * room_speed	
 }

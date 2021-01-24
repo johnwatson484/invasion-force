@@ -30,7 +30,37 @@ if (keyboard_check(vk_left) && keyboard_check(vk_up)) {
 }
 
 if (keyboard_check(vk_space) && global.playerCanFire) {
-	instance_create_layer(x,y,"Instances",obj_laser)
+	switch(lasers) {
+		case 1:
+			instance_create_layer(x,y,"Instances",obj_laser)
+			break;
+		case 2:
+			instance_create_layer(x - 10,y,"Instances",obj_laser)
+			instance_create_layer(x + 10,y,"Instances",obj_laser)
+			break;
+		case 3:
+			instance_create_layer(x,y,"Instances",obj_laser)
+			instance_create_layer(x - 15,y,"Instances",obj_laser)
+			instance_create_layer(x + 15,y,"Instances",obj_laser)
+			break;
+		case 4:
+			instance_create_layer(x - 10,y,"Instances",obj_laser)
+			instance_create_layer(x + 10,y,"Instances",obj_laser)
+			instance_create_layer(x - 20,y,"Instances",obj_laser)
+			instance_create_layer(x + 20,y,"Instances",obj_laser)
+			break;
+		case 5:
+			instance_create_layer(x,y,"Instances",obj_laser)
+			instance_create_layer(x - 15,y,"Instances",obj_laser)
+			instance_create_layer(x + 15,y,"Instances",obj_laser)
+			instance_create_layer(x - 25,y,"Instances",obj_laser)
+			instance_create_layer(x + 25,y,"Instances",obj_laser)
+			break;
+		default:
+			instance_create_layer(x,y,"Instances",obj_laser)
+			break;
+	}
+	
 	global.playerCanFire = false
 	alarm[0] = 0.2 * room_speed
 }
