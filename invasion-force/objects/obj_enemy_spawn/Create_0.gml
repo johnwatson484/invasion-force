@@ -12,12 +12,17 @@ global.enemyPoints = 10
 global.enemy2Points = 10
 global.enemy3Points = 25
 global.enemy4Points = 15
+global.enemy5Points = 30
+global.enemy6Points = 10
 global.bossPoints = 50
 global.boss2Points = 100
 
 global.enemy3Health = 10
-global.bossHealth = 30
-global.boss2Health = 50
+global.enemy5Health = 30
+global.bossHealth = 50
+global.boss2Health = 100
+
+alarm[2] = 1 * room_speed
 
 // enemy spawn
 alarm[0] = 1 * room_speed

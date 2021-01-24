@@ -11,6 +11,11 @@ if(health <= 0) {
 	instance_create_layer(x + sprite_xoffset ,y + sprite_yoffset+20,"Instances",obj_explosion)
 	instance_create_layer(x + sprite_xoffset-20 ,y + sprite_yoffset,"Instances",obj_explosion)
 	instance_create_layer(x + sprite_xoffset ,y + sprite_yoffset-20,"Instances",obj_explosion)
+	instance_create_layer(x + sprite_xoffset ,y + sprite_yoffset,"Instances",obj_explosion)
+	instance_create_layer(x + sprite_xoffset+30 ,y + sprite_yoffset,"Instances",obj_explosion)
+	instance_create_layer(x + sprite_xoffset ,y + sprite_yoffset+30,"Instances",obj_explosion)
+	instance_create_layer(x + sprite_xoffset-30 ,y + sprite_yoffset,"Instances",obj_explosion)
+	instance_create_layer(x + sprite_xoffset ,y + sprite_yoffset-30,"Instances",obj_explosion)
 	with (obj_beam) {
 		instance_destroy()
 	}

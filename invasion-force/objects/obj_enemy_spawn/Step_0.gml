@@ -11,3 +11,8 @@ if(global.bossWins == 1) {
 	// boss 2 spawn
 	alarm[6] = 120 * room_speed	
 }
+
+if(global.bossWins == 2) {
+	// spawn enemy 5
+	alarm[2] = 30 * room_speed	
+}

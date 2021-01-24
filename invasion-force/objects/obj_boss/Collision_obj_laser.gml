@@ -13,6 +13,8 @@ if(health <= 0) {
 	instance_create_layer(x + sprite_xoffset ,y + sprite_yoffset-20,"Instances",obj_explosion)
 	global.spawnEnemies = true
 	global.scheduleBoss = true
-	global.bossWins += 1
+	if(global.bossWins == 0) {
+		global.bossWins += 1
+	}
 	instance_destroy()
 }
