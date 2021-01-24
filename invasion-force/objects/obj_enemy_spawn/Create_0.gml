@@ -16,7 +16,7 @@ global.bossPoints = 50
 global.boss2Points = 100
 
 global.enemy3Health = 10
-global.bossHealth = 25
+global.bossHealth = 30
 global.boss2Health = 50
 
 // enemy spawn
