@@ -5,6 +5,6 @@ health -= 1
 
 if(health <= 0) {
 	global.playerScore +=20
-	instance_create_layer(x,y,"Instances",obj_explosion)
+	instance_create_layer(x,y,"Instances",obj_explosion2)
 	instance_destroy()
 }
