@@ -23,6 +23,7 @@
     {"isDnD":false,"eventNum":4,"eventType":2,"collisionObjectId":null,"parent":{"name":"obj_arena_spawn","path":"objects/obj_arena_spawn/obj_arena_spawn.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":6,"eventType":2,"collisionObjectId":null,"parent":{"name":"obj_arena_spawn","path":"objects/obj_arena_spawn/obj_arena_spawn.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":7,"eventType":2,"collisionObjectId":null,"parent":{"name":"obj_arena_spawn","path":"objects/obj_arena_spawn/obj_arena_spawn.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"obj_arena_spawn","path":"objects/obj_arena_spawn/obj_arena_spawn.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
