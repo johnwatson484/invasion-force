@@ -9,7 +9,7 @@ global.playerScore = 0
 global.playerSpeed = 10
 global.playerCanFire = true
 global.invincible = false
-global.playerLives = 3
+global.playerLives = 5
 
 if(room != Arena) {
 	// spawn extra life
