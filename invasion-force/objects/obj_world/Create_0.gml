@@ -1,6 +1,8 @@
 /// @description Start world
 // You can write your code in this editor
 
+randomize()
+
 global.alive = true
 global.restart = false
 global.playerScore = 0
