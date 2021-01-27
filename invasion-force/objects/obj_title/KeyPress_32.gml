@@ -9,6 +9,7 @@ switch(global.selected) {
 		room_goto(Arena)
 		break;
 	case 2:
+		room_goto(Controls)
 		break;
 	case 3:
 		break;
