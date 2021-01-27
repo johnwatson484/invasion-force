@@ -10,6 +10,7 @@ global.bossPoints = 50
 global.boss2Points = 100
 global.boss3Points = 120
 global.boss4Points = 150
+global.boss5Points = 200
 global.enemy6Points = 10
 global.missilePoints = 15
 
@@ -17,6 +18,7 @@ global.bossHealth = 50
 global.boss2Health = 100
 global.boss3Health = 120
 global.boss4Health = 200
+global.boss5Health = 500
 
 // boss spawn
-alarm[4] = 1 * room_speed
+alarm[1] = 1 * room_speed

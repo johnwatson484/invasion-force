@@ -6,15 +6,12 @@ if(!shields){
 }
 
 if(health <= 0) {
-	global.playerScore += global.boss3Points
+	global.playerScore += global.boss4Points
 	instance_create_layer(x + sprite_xoffset ,y + sprite_yoffset,"Instances",obj_explosion)
 	instance_create_layer(x + sprite_xoffset+20 ,y + sprite_yoffset,"Instances",obj_explosion)
 	instance_create_layer(x + sprite_xoffset ,y + sprite_yoffset+20,"Instances",obj_explosion)
 	instance_create_layer(x + sprite_xoffset-20 ,y + sprite_yoffset,"Instances",obj_explosion)
 	instance_create_layer(x + sprite_xoffset ,y + sprite_yoffset-20,"Instances",obj_explosion)
-	with (obj_beam) {
-		instance_destroy()
-	}
 	global.spawnEnemies = true
 	global.spawnBoss = false
 	global.bossWins += 1

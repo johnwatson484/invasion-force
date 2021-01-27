@@ -22,7 +22,13 @@ if(global.scheduleBoss3 && global.bossWins == 2) {
 }
 
 if(global.scheduleBoss4 && global.bossWins == 3) {
-	// boss 3 spawn
+	// boss 4 spawn
 	alarm[8] = 240 * room_speed
 	global.scheduleBoss4 = false
+}
+
+if(global.scheduleBoss5 && global.bossWins == 4) {
+	// boss 5 spawn
+	alarm[9] = 300 * room_speed
+	global.scheduleBoss5 = false
 }

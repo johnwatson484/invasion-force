@@ -8,6 +8,7 @@ global.scheduleBoss = false
 global.scheduleBoss2 = true
 global.scheduleBoss3= true
 global.scheduleBoss4= true
+global.scheduleBoss5= true
 global.spawnBoss = true
 global.bossWins = 0
 
@@ -20,7 +21,8 @@ global.enemy6Points = 10
 global.bossPoints = 50
 global.boss2Points = 100
 global.boss3Points = 120
-global.boss3Points = 150
+global.boss4Points = 150
+global.boss5Points = 150
 global.missilePoints = 15
 
 global.enemy3Health = 10
@@ -29,6 +31,7 @@ global.bossHealth = 50
 global.boss2Health = 100
 global.boss3Health = 120
 global.boss4Health = 200
+global.boss5Health = 500
 
 
 // enemy spawn

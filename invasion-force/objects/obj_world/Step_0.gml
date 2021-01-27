@@ -14,3 +14,9 @@ if(!global.alive && !global.restart){
 if(global.restart && keyboard_check_pressed(vk_space)) {
 	room_restart()
 }
+
+if(global.bossWins = 5 && !global.victory) {
+	instance_create_layer(x, y, "Instances", obj_victory)
+	global.victory = true
+	global.restart = true
+}

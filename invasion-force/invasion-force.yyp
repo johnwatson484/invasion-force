@@ -1,8 +1,10 @@
 {
   "resources": [
+    {"id":{"name":"spr_mine","path":"sprites/spr_mine/spr_mine.yy",},"order":26,},
     {"id":{"name":"obj_extra_life","path":"objects/obj_extra_life/obj_extra_life.yy",},"order":15,},
     {"id":{"name":"obj_enemy_spawn","path":"objects/obj_enemy_spawn/obj_enemy_spawn.yy",},"order":13,},
     {"id":{"name":"spr_missile","path":"sprites/spr_missile/spr_missile.yy",},"order":21,},
+    {"id":{"name":"spr_boss5","path":"sprites/spr_boss5/spr_boss5.yy",},"order":25,},
     {"id":{"name":"Title","path":"rooms/Title/Title.yy",},"order":1,},
     {"id":{"name":"obj_boss3","path":"objects/obj_boss3/obj_boss3.yy",},"order":27,},
     {"id":{"name":"spr_player_invincible","path":"sprites/spr_player_invincible/spr_player_invincible.yy",},"order":6,},
@@ -15,6 +17,7 @@
     {"id":{"name":"obj_enemy2","path":"objects/obj_enemy2/obj_enemy2.yy",},"order":8,},
     {"id":{"name":"spr_boss","path":"sprites/spr_boss/spr_boss.yy",},"order":8,},
     {"id":{"name":"obj_explosion2","path":"objects/obj_explosion2/obj_explosion2.yy",},"order":26,},
+    {"id":{"name":"obj_mine","path":"objects/obj_mine/obj_mine.yy",},"order":32,},
     {"id":{"name":"spr_explosion","path":"sprites/spr_explosion/spr_explosion.yy",},"order":5,},
     {"id":{"name":"spr_asteroid","path":"sprites/spr_asteroid/spr_asteroid.yy",},"order":13,},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":1,},
@@ -35,6 +38,7 @@
     {"id":{"name":"obj_explosion","path":"objects/obj_explosion/obj_explosion.yy",},"order":7,},
     {"id":{"name":"obj_enemy4","path":"objects/obj_enemy4/obj_enemy4.yy",},"order":14,},
     {"id":{"name":"spr_star","path":"sprites/spr_star/spr_star.yy",},"order":2,},
+    {"id":{"name":"obj_boss5","path":"objects/obj_boss5/obj_boss5.yy",},"order":31,},
     {"id":{"name":"obj_environment_spawn","path":"objects/obj_environment_spawn/obj_environment_spawn.yy",},"order":17,},
     {"id":{"name":"spr_enemy3","path":"sprites/spr_enemy3/spr_enemy3.yy",},"order":10,},
     {"id":{"name":"spr_enemy4","path":"sprites/spr_enemy4/spr_enemy4.yy",},"order":11,},

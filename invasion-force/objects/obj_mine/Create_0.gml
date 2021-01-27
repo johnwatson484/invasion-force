@@ -1,4 +1,6 @@
 /// @description Setup
 // You can write your code in this editor
 
-lasers = 1
+path = irandom(1)
+distance = irandom(100)
+travelled = 0
