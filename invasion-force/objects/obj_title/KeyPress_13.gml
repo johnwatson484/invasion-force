@@ -12,6 +12,7 @@ switch(global.selected) {
 		room_goto(Controls)
 		break;
 	case 3:
+		room_goto(Credits)
 		break;
 	case 4:
 		game_end()

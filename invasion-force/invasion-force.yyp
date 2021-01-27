@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_mine","path":"sprites/spr_mine/spr_mine.yy",},"order":26,},
+    {"id":{"name":"obj_credits","path":"objects/obj_credits/obj_credits.yy",},"order":34,},
     {"id":{"name":"obj_extra_life","path":"objects/obj_extra_life/obj_extra_life.yy",},"order":15,},
     {"id":{"name":"obj_enemy_spawn","path":"objects/obj_enemy_spawn/obj_enemy_spawn.yy",},"order":13,},
     {"id":{"name":"spr_missile","path":"sprites/spr_missile/spr_missile.yy",},"order":21,},
@@ -36,6 +37,7 @@
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":1,},
     {"id":{"name":"spr_enemy6","path":"sprites/spr_enemy6/spr_enemy6.yy",},"order":18,},
     {"id":{"name":"obj_explosion","path":"objects/obj_explosion/obj_explosion.yy",},"order":7,},
+    {"id":{"name":"Credits","path":"rooms/Credits/Credits.yy",},"order":4,},
     {"id":{"name":"obj_enemy4","path":"objects/obj_enemy4/obj_enemy4.yy",},"order":14,},
     {"id":{"name":"spr_star","path":"sprites/spr_star/spr_star.yy",},"order":2,},
     {"id":{"name":"obj_boss5","path":"objects/obj_boss5/obj_boss5.yy",},"order":31,},
@@ -90,6 +92,7 @@
     {"roomId":{"name":"World","path":"rooms/World/World.yy",},},
     {"roomId":{"name":"Arena","path":"rooms/Arena/Arena.yy",},},
     {"roomId":{"name":"Controls","path":"rooms/Controls/Controls.yy",},},
+    {"roomId":{"name":"Credits","path":"rooms/Credits/Credits.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
