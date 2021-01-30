@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 1.0,
+  "volume": 0.25,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_mine",
-  "duration": 0.0,
+  "soundFile": "snd_mine.mp3",
+  "duration": 1.023776,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
