@@ -36,6 +36,7 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_boss4","path":"objects/obj_boss4/obj_boss4.yy",},"parent":{"name":"obj_laser","path":"objects/obj_laser/obj_laser.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_shield","path":"objects/obj_shield/obj_shield.yy",},"parent":{"name":"obj_laser","path":"objects/obj_laser/obj_laser.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_boss5","path":"objects/obj_boss5/obj_boss5.yy",},"parent":{"name":"obj_laser","path":"objects/obj_laser/obj_laser.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_laser","path":"objects/obj_laser/obj_laser.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
