@@ -7,6 +7,7 @@
     {"id":{"name":"spr_missile","path":"sprites/spr_missile/spr_missile.yy",},"order":21,},
     {"id":{"name":"spr_boss5","path":"sprites/spr_boss5/spr_boss5.yy",},"order":25,},
     {"id":{"name":"Title","path":"rooms/Title/Title.yy",},"order":1,},
+    {"id":{"name":"snd_mine","path":"sounds/snd_mine/snd_mine.yy",},"order":6,},
     {"id":{"name":"snd_beam","path":"sounds/snd_beam/snd_beam.yy",},"order":2,},
     {"id":{"name":"obj_boss3","path":"objects/obj_boss3/obj_boss3.yy",},"order":27,},
     {"id":{"name":"snd_missile","path":"sounds/snd_missile/snd_missile.yy",},"order":3,},
