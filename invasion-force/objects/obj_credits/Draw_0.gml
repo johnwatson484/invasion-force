@@ -13,9 +13,14 @@ credit_y+=line_spacing
 draw_text(x,credit_y,"John Watson")
 credit_y+=line_spacing * 2
 
+draw_text(x,credit_y,"All sprites, music and sound effects")
+credit_y+=line_spacing
+draw_text(x,credit_y,"available in public domain or under CC BY-SA 3.0/CC BY 3.0 licences")
+credit_y+=line_spacing * 2
+
 draw_text(x,credit_y,"With thanks to")
 credit_y+=line_spacing
 draw_text(x,credit_y,"John Watson")
 credit_y+=line_spacing
-draw_text(x,credit_y,"Game Maker Studio 2")
+draw_text(x,credit_y,"YoYo Games - GameMaker Studio 2")
 credit_y+=line_spacing
