@@ -1,8 +1,8 @@
 /// @description Down
 // You can write your code in this editor
 
-if(global.selected < 4)
+if(selected < 6)
 {
-	global.selected += 1
-	cursor.y = menu_location[global.selected]		
+	selected += 1
+	cursor.y = menu_location[selected]		
 }

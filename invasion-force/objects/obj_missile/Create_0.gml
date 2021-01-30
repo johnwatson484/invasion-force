@@ -7,3 +7,7 @@ if(variable_instance_exists(id,"target") && instance_exists(target)) {
 	missileDirection = point_direction(x, y, target.x, target.y)
 	image_angle = missileDirection + 90
 }
+
+if(global.sfx){
+	audio_play_sound(snd_missile,1,false)
+}

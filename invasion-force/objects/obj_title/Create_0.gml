@@ -4,9 +4,11 @@
 menu[0]="Start"
 menu[1]="Arena"
 menu[2]="Controls"
-menu[3]="Credits"
-menu[4]="Quit"
+menu[3]="Music - ON"
+menu[4]="SFX - ON"
+menu[5]="Credits"
+menu[6]="Quit"
 
-global.selected = 0
+selected = 0
 
 cursor = instance_create_layer(room_width / 2 - 20,y,"Instances", obj_cursor)

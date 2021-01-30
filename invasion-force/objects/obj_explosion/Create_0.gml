@@ -2,4 +2,7 @@
 // You can write your code in this editor
 
 image_speed = 3
-audio_play_sound(snd_explosion,1,false)
+
+if(global.sfx){
+	audio_play_sound(snd_explosion,1,false)
+}

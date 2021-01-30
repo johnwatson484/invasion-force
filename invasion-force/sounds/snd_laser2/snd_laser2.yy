@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_laser.ogg",
-  "duration": 0.938651,
+  "soundFile": "snd_laser2.ogg",
+  "duration": 0.565181,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_laser",
+  "name": "snd_laser2",
   "tags": [],
   "resourceType": "GMSound",
 }

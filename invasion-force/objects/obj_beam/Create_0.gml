@@ -2,4 +2,7 @@
 // You can write your code in this editor
 
 alarm[0] = 2.5 * room_speed
-sound = audio_play_sound(snd_beam,1,false)
+
+if(global.sfx){
+	audio_play_sound(snd_beam,1,false)
+}

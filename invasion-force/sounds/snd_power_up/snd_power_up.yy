@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.1,
+  "volume": 0.2,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_laser.ogg",
-  "duration": 0.938651,
+  "soundFile": "snd_power_up.ogg",
+  "duration": 0.927993,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_laser",
+  "name": "snd_power_up",
   "tags": [],
   "resourceType": "GMSound",
 }
