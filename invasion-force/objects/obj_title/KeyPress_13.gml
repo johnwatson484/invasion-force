@@ -3,9 +3,11 @@
 
 switch(selected) {
 	case 0:
+		audio_stop_sound(snd_title)
 		room_goto(World)
 		break;
 	case 1:
+		audio_stop_sound(snd_title)
 		room_goto(Arena)
 		break;
 	case 2:

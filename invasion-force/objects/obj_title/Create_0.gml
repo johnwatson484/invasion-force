@@ -12,3 +12,7 @@ menu[6]="Quit"
 selected = 0
 
 cursor = instance_create_layer(room_width / 2 - 20,y,"Instances", obj_cursor)
+
+if(global.music){
+  audio_play_sound(snd_title, 1, true)
+}
