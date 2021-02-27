@@ -3,6 +3,8 @@
 
 randomize()
 
+audio_stop_sound(snd_title)
+
 global.alive = true
 global.restart = false
 global.playerScore = 0
