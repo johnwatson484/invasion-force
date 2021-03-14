@@ -12,6 +12,10 @@ if(health <= 0) {
 	instance_create_layer(x + sprite_xoffset ,y + sprite_yoffset+20,"Instances",obj_explosion)
 	instance_create_layer(x + sprite_xoffset-20 ,y + sprite_yoffset,"Instances",obj_explosion)
 	instance_create_layer(x + sprite_xoffset ,y + sprite_yoffset-20,"Instances",obj_explosion)
+	if(room != Arena) {
+		audio_stop_sound(snd_boss)
+		audio_play_sound(snd_level, 1, true)
+	}
 	global.spawnEnemies = true
 	global.spawnBoss = false
 	global.bossWins += 1

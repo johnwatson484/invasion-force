@@ -18,6 +18,10 @@ if(health <= 0) {
 	with (obj_beam) {
 		instance_destroy()
 	}
+	if(room != Arena) {
+		audio_stop_sound(snd_boss)
+		audio_play_sound(snd_level, 1, true)
+	}
 	global.spawnEnemies = true
 	global.spawnBoss = false
 	global.bossWins += 1

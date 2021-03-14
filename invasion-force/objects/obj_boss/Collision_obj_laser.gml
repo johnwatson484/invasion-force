@@ -14,6 +14,10 @@ if(health <= 0) {
 	global.scheduleBoss = true
 	if(global.bossWins == 0) {
 		global.bossWins += 1
+		if(room != Arena) {
+			audio_stop_sound(snd_boss)
+			audio_play_sound(snd_level, 1, true)
+		}
 	}
 	instance_destroy()
 }
