@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_victory",
-  "duration": 0.0,
+  "soundFile": "snd_victory.mp3",
+  "duration": 182.287445,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
