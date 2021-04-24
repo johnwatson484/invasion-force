@@ -27,10 +27,10 @@ global.missilePoints = 15
 
 global.enemy3Health = 10
 global.enemy5Health = 25
-global.bossHealth = 50
-global.boss2Health = 100
-global.boss3Health = 120
-global.boss4Health = 200
+global.bossHealth = 100
+global.boss2Health = 200
+global.boss3Health = 300
+global.boss4Health = 400
 global.boss5Health = 500
 
 
