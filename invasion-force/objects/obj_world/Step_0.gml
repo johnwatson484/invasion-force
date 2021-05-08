@@ -11,7 +11,7 @@ if(!global.alive && !global.restart){
 	global.restart = true	
 }
 
-if(global.restart && keyboard_check_pressed(vk_space)) {
+if(global.restart && keyboard_check_pressed(vk_enter)) {
 	room_restart()
 }
 

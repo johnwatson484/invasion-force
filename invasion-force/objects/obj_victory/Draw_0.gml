@@ -3,4 +3,4 @@
 
 draw_set_halign(fa_center)
 draw_set_valign(fa_middle)
-draw_text(view_hview[0]*0.5,view_wview[0]*0.5,"Victory. Press space to restart or Q to quit.")
+draw_text(view_hview[0]*0.5,view_wview[0]*0.5,"Victory. Press enter to restart or Q to quit.")
