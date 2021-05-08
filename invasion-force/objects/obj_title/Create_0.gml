@@ -13,6 +13,6 @@ selected = 0
 
 cursor = instance_create_layer(room_width / 2 - 20,y,"Instances", obj_cursor)
 
-if(global.music){
+if(global.music && !audio_is_playing(snd_title)){
   audio_play_sound(snd_title, 1, true)
 }
