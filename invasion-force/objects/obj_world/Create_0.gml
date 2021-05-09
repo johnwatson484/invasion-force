@@ -48,8 +48,10 @@ if(room != Arena) {
 	// increase difficulty
 	alarm[6] = 300 * room_speed
 	
-	audio_play_sound(snd_level, 1, true)
-} else {
+	if(global.music) {
+		audio_play_sound(snd_level, 1, true)
+	}
+} else if (global.music) {
 	audio_play_sound(snd_boss, 1, true)
 }
 
